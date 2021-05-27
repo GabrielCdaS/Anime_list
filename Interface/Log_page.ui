@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>painel</class>
+ <widget class="QMainWindow" name="painel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>339</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 208, 255)
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="pato">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>9</y>
+      <width>301</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pato {
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	background-color: rgb(49, 49, 49);
+	color: white;
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="logar_command">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#logar_command {
+	border-radius: 5px;	
+	background-color: rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 1px;
+	border-color: white;
+	color: white
+}
+
+
+#logar_command:hover {
+	background-color: white;
+	color: black;
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Logar</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="usuario">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#usuario {
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid;
+}</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="senha">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#senha {
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid;
+}</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="registrar">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>340</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#registrar {
+	border-radius: 5px;	
+	background-color: rgb(0, 0, 0,0);
+	color: rgb(184, 126, 255);
+}
+
+
+#registrar:hover {
+	color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Registrar-se</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,0,0,0);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Senha</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>109</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,0,0,0);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Usuario</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>281</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0,0,0,0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../Resize/Novo nome.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="pfvr me mata.qrc"/>
+ </resources>
+ <connections/>
+</ui>
